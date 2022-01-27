@@ -1,0 +1,54 @@
+//=================
+//APP Specific CSS
+//=================
+.App {
+    text-align: center;
+}
+//=================
+//HEADSHOT IMAGE CSS
+//=================
+.headshot {
+    height: 200px;
+    width: 200px;
+    border-radius: 100px
+}
+//=================
+//PROJECT IMAGE CSS
+//=================
+img {
+    height: 300px;
+    width: 500px;
+}
+//=================
+//BODY BACKGROUND CSS
+//=================
+body {
+    background-color: #353836;
+    color: white;
+}
+//=================
+//HEADER
+//=================
+header {
+    color: white;
+}
+//=================
+//HEADER NAV
+//=================
+nav{
+    display: flex;
+    justify-content: space-around;
+    border: 3px solid black;
+    padding: 8px;
+    width: 90%;
+    margin: auto;
+    
+}
+
+nav div {
+    color: white;
+}
+
+
+
+

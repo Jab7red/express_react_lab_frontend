@@ -7,7 +7,7 @@ import Home from './pages/Home';
 import About from './pages/About';
 import Projects from './pages/Projects';
 // IMPORT STYLESHEET
-import './App.css';
+import './style.scss';
 
 function App() {
   // Backend HEROKU URL
