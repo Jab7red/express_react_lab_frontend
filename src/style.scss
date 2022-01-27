@@ -15,9 +15,15 @@
 //=================
 //PROJECT IMAGE CSS
 //=================
-img {
+.projectImage {
     height: 300px;
     width: 500px;
+    border-radius: 25px;
+}
+
+.projectImage:hover {
+    border-left: 8px solid red;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
 }
 //=================
 //BODY BACKGROUND CSS

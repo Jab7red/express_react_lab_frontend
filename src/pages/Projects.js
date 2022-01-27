@@ -22,7 +22,7 @@ const Projects = (props) => {
         return projects.map((project) => (
         <div>
             <h1>{project.name}</h1>
-            <img src={project.image} alt={project.name} />
+            <img className="projectImage" src={project.image} alt={project.name} />
             <br />
             <a href={project.git}>
                 <button>Github</button>
