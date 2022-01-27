@@ -11,7 +11,7 @@ import './App.css';
 
 function App() {
   // Backend HEROKU URL
-  const URL = "https://jbs-portfolio.herokuapp.com";
+  const URL = "https://jbs-portfolio.herokuapp.com/";
   return (
     <div className="App">
       <Header />
