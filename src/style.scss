@@ -44,14 +44,31 @@ header {
 nav{
     display: flex;
     justify-content: space-around;
-    border: 3px solid black;
+    border: 3px solid #787878;
     padding: 8px;
     width: 90%;
     margin: auto;
-    
 }
 
 nav div {
+    color: white;
+    text-decoration: none;
+}
+//=================
+//FOOTER
+//=================
+footer {
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    flex-direction: row;
+    border: 3px solid #787878;
+    padding: 1px;
+    width: 90%;
+    margin: auto;
+}
+
+footer a {
     color: white;
 }
 
